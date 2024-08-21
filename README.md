@@ -5,8 +5,10 @@ This repo hold a simple example and benchmark for lazy proto serde.
 ##  Setup 
 
 ### Install protoc and go plugin. 
-    - For protoc, see https://grpc.io/docs/protoc-installation/
-    - For Go plugin:
+
+- For protoc, see https://grpc.io/docs/protoc-installation/
+- For Go plugin:
+
     ```shell
     go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
     ```
