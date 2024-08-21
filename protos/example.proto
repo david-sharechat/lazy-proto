@@ -5,7 +5,7 @@ option go_package = "./protos";
 
 message InnerMessage {
     int32 val = 8;
-  }
+}
   
 message OuterMessage {
     string name = 1;
@@ -18,5 +18,3 @@ message LazyOuterMessage {
     repeated bytes inner = 2;
     repeated bytes map = 3;
 }
-  
-  
