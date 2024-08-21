@@ -1,0 +1,22 @@
+syntax = "proto3";
+package protos;
+
+option go_package = "./protos";
+
+message InnerMessage {
+    int32 val = 8;
+  }
+  
+message OuterMessage {
+    string name = 1;
+    repeated InnerMessage inner = 2;
+    map<string, InnerMessage> map = 3;
+}
+
+message LazyOuterMessage {
+    bytes name = 1;
+    repeated bytes inner = 2;
+    repeated bytes map = 3;
+}
+  
+  

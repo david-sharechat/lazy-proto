@@ -1,0 +1,25 @@
+goos: darwin
+goarch: arm64
+pkg: lazy-proto
+BenchmarkMerge/Naive-10         	      69	  17349836 ns/op	 8890235 B/op	  141158 allocs/op
+BenchmarkMerge/Naive-10         	      68	  16775972 ns/op	 8890503 B/op	  141160 allocs/op
+BenchmarkMerge/Naive-10         	      69	  16747630 ns/op	 8891452 B/op	  141164 allocs/op
+BenchmarkMerge/Naive-10         	      69	  16678619 ns/op	 8890737 B/op	  141161 allocs/op
+BenchmarkMerge/Naive-10         	      70	  17237382 ns/op	 8890238 B/op	  141158 allocs/op
+BenchmarkMerge/Naive-10         	      69	  16964076 ns/op	 8891633 B/op	  141165 allocs/op
+BenchmarkMerge/Naive-10         	      72	  16805503 ns/op	 8890728 B/op	  141160 allocs/op
+BenchmarkMerge/Naive-10         	      70	  16735448 ns/op	 8890707 B/op	  141161 allocs/op
+BenchmarkMerge/Naive-10         	      72	  16835765 ns/op	 8890729 B/op	  141161 allocs/op
+BenchmarkMerge/Naive-10         	      68	  17288920 ns/op	 8890956 B/op	  141162 allocs/op
+BenchmarkMerge/Lazy-10          	     454	   2616423 ns/op	 6284584 B/op	   40080 allocs/op
+BenchmarkMerge/Lazy-10          	     451	   2629434 ns/op	 6284584 B/op	   40080 allocs/op
+BenchmarkMerge/Lazy-10          	     442	   2646398 ns/op	 6284585 B/op	   40080 allocs/op
+BenchmarkMerge/Lazy-10          	     445	   2701456 ns/op	 6284585 B/op	   40080 allocs/op
+BenchmarkMerge/Lazy-10          	     430	   2850549 ns/op	 6284588 B/op	   40080 allocs/op
+BenchmarkMerge/Lazy-10          	     434	   2879003 ns/op	 6284588 B/op	   40080 allocs/op
+BenchmarkMerge/Lazy-10          	     444	   2773458 ns/op	 6284588 B/op	   40080 allocs/op
+BenchmarkMerge/Lazy-10          	     426	   2653758 ns/op	 6284589 B/op	   40080 allocs/op
+BenchmarkMerge/Lazy-10          	     444	   2681167 ns/op	 6284587 B/op	   40080 allocs/op
+BenchmarkMerge/Lazy-10          	     445	   2672639 ns/op	 6284587 B/op	   40080 allocs/op
+PASS
+ok  	lazy-proto	86.995s
