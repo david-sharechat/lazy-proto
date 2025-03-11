@@ -1,6 +1,6 @@
 # Lazy Proto serde example
 
-This repo hold a simple example and benchmark for lazy proto serde.
+This repo holds a simple example and benchmark for lazy proto serde.
 
 ##  Setup 
 
